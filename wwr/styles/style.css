@@ -57,7 +57,7 @@ body{
     font-size: 22px;
     margin: 0;
     padding: 0;
-
+    grid-row: 20;
 }
 header{
     display: grid;
@@ -210,6 +210,8 @@ main section img {
 }
 .msg{
     background-color: #6f7364;
+    margin-top: 50px;
+    padding-bottom: 20px;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
@@ -239,6 +241,9 @@ main section img {
     .home-title {
         font-size: 25px;
         color: #6f7364;
+    }
+    .hero-img{
+        width: 100%;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
