@@ -33,6 +33,7 @@ nav {
 
 }
 #Hero-box {
+    width: 100%;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -46,7 +47,7 @@ main section{
 }
 .home-grid{
     display: grid;
-    grid-template-columns: repeat(10 1fr)
+    grid-template-columns: repeat(10 , 1fr)
 }
 #backgroud{
     height: 725px;
