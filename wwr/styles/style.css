@@ -262,4 +262,56 @@ main section img {
         margin-top: 25px;
     }
 }
-       
+
+/*THIS IS CSS FOR THE BLOGS WEBSITE*/
+
+#details{
+          margin: 0, auto;
+          max-width: 1600px;
+}
+
+h2{
+    text-align: center;
+    margin: 50px;
+
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.image-container ,img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+}
+
+.home-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+.words, .imgg {
+    flex: 1;
+}
+
+.imgg {
+    text-align: right; /* Align the image to the right within its section */
+}
+
+
+/* To ensure the second content appears under the first when scrolling */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+
