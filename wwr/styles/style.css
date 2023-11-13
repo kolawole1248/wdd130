@@ -295,7 +295,7 @@ h2{
 
 .content {
     display: flex;
-    margin-bottom: 20px; /* Spacing between sections */
+    margin-bottom: 20px; 
 }
 
 .words, .imgg {
@@ -303,11 +303,11 @@ h2{
 }
 
 .imgg {
-    text-align: right; /* Align the image to the right within its section */
+    text-align: right; 
 }
 
 
-/* To ensure the second content appears under the first when scrolling */
+
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
