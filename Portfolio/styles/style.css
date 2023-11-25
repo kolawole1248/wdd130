@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap');
+#content{
+    max-width: 1600px;   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color: #178EF4;
+    
+}
+nav a {
+    display: block;
+    padding: 50px;
+    font-size: x-large;
+    color: white
+}
+nav a:hover{
+    background-color: black;
+    color:white
+
+}
+#profile{
+    display: grid;
+    grid-template-columns:50%;
+    margin-top: 100px;
+    justify-content: space-around;
+
+}
+#first_msg{
+    grid-row:1 ;    
+}
+.first_image{
+    grid-row: 1;
+}
+.msg1{
+    text-align: center;
+    font-size: x-large;
+    margin: 3%;
+}
+.page_grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content: space-around;
+}
+.Behance_img{
+    width: 75%;
+    height: 85%;
+    margin-left: 10%;
+}
+.mobile_ui{
+    width: 75%;
+    height: 85%;
+    margin-left: 10%;
+
+}
+.analytics_ui{
+    width: 75%;
+    height: 85%;
+    margin-left: 10%;
+}
+.info{
+    margin-left: 25%;
+}
+footer{
+    background-color: #178EF4;
+    text-align: center;
+}
+.social_x{
+    margin: 20px;
+}
+.social_ig{
+    margin: 20px;
+}
+.social_lk{
+    margin: 20px;
+}
+.social_fb{
+    margin: 20px;
+}
