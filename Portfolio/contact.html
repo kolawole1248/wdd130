@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
 </head>
 <body>
     <header>
@@ -21,23 +23,27 @@
 		<section class="main nopad-b">
 			<div class="row">
 				<div id="text-main" class="col-5">
-					<h1>contact.</h1>
-					<p class="intro">Get in touch with me via social media or email.</p>
-					
+					<h1>Contact 
+                        <br>
+					    Get in touch with me via social media or email
+                        <br>
+                        Reach out to me on all my social media here or <br>send us a message on our gmail down below thanks 
+
+                    </h1>
 					<ul class="social-disc">
-                        <img src="images/xlogo_100x100-modified.png" alt="Twitter" >
+                        <img src="images/xlogo_100x100-modified.png" alt="Twitter" class="x" >
 						<li><a href="http://www.twitter.com/" target="_blank" class="twitter">Twitter</a></li>
-                        <img src="images/fb-modified.png" alt="Facebook">
-						<li><a href="http://www.facebook.com/" target="_blank" class="facebook">Facebook</a></li>
-                        <img src="images/linkden logo_100x100-modified.png" alt="linkden">
+                        <img src="images/fb-modified.png" alt="Facebook" class="fb">
+						<li><a href="http://www.facebook.com/" target="_blank" class="facebook">Facebook </a></li>
+                        <img src="images/linkden logo_100x100-modified.png" alt="linkden" class="lk">
 						<li><a href="http://www.linkedin.com/" target="_blank" class="linkedin">LinkedIn</a></li>
-                        <img src="images/instagram logo_100x100-modified.png" alt="Instagram">
+                        <img src="images/instagram logo_100x100-modified.png" alt="Instagram" class="Ig"> 
 						<li><a href="https://www.instagram.com/" target="_blank" class="instagram">Instagram</a></li>
 					</ul>
 
 				</div>
 				<div id="img-main">
-					<img src="images/WhatsApp Image 2023-11-05 at 10.07.53 PM.jpeg" alt="My image">
+					<img src="images/WhatsApp Image 2023-11-05 at 10.07.53 PM.jpeg" alt="My image" width="450px" height="480px">
 				</div>
 			</div>
 
@@ -45,9 +51,9 @@
 
     <main class="contact_grid">
         <p>Send me an email.</p>
-        <form action="my-contact-us-form-page "method="post">
-            <ul>
-                <li>
+        <form action="my-contact-us-form-page "method="post" class="grids">
+            <ul class="Grid">
+                <li class="name">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="user_name" />
                 </li>
@@ -55,9 +61,9 @@
                     <label for="email">Email:</label>
                     <input type="text" id="mail" name="user_name"/>
                 </li>
-                <li>
+                <li class="message">
                     <label for="msg">Message:</label>
-                    <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                    <textarea name="user_message" id="msg" cols="30" rows="10" class="text"></textarea>
                 </li>
                 <li class="button">
                     <button type="submit">Send your message</button>
@@ -75,18 +81,19 @@
         <h2>Living, learning, & leveling up one day at a time.</h2>
         <div class="social">
             <a href="www.twitter.com/">
-                <img src="images/xlogo_100x100-modified.png"alt="twitter" width="70px" height="70px">
+                <img class="social_x" src="images/xlogo_100x100-modified.png"alt="twitter" width="70px" height="70px">
             </a>
             <a href="www.instagram.com">
-                <img src="images/instagram logo_100x100-modified.png" alt="Instagram" width="70px" height="70px">
+                <img class="social_ig" src="images/instagram logo_100x100-modified.png" alt="Instagram" width="70px" height="70px">
             </a>
             <a href="www.linkdin.com/">
-                <img src="images/linkden logo_100x100-modified.png" alt="linkden" width="70px" height="70px">
+                <img class="social_lk" src="images/linkden logo_100x100-modified.png" alt="linkden" width="70px" height="70px">
             </a>
             <a href="www.facebook.com">
-                <img src="images/fb-modified.png" alt="facebook" width="70px" height="70px">
+                <img class="social_fb" src="images/fb-modified.png" alt="facebook" width="70px" height="70px">
             </a>
         </div>
+        <h2>Crafting Digital Excellence: Where Vision Meets Code</h2>
 
     </footer>
 </body>

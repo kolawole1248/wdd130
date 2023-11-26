@@ -81,3 +81,22 @@ footer{
 .social_fb{
     margin: 20px;
 }
+
+/*THIS IS CSS FOR THE contact page*/
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.fb{
+    width: 85px;
+}
+.social-disc{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+.lk{
+    grid-row: 1/2;
+}
