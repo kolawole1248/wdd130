@@ -100,3 +100,10 @@ footer{
 .lk{
     grid-row: 1/2;
 }
+body{
+    font-family: Courgette, "Brush Script", cursive;
+
+}
+header{
+    font-family: "Big Shoulders Display";
+}
